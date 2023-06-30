@@ -9,14 +9,6 @@
 | [~/.config/xfce4](./asset/overlay/etc/skel/.config/xfce4) |
 
 
-## Debian Package
-
-| Debian Package |
-| --- |
-| [xfce4](https://packages.debian.org/sid/xfce4) |
-| [xfce4-goodies](https://packages.debian.org/sid/xfce4-goodies) |
-
-
 ## Note
 
 ## qt5ct

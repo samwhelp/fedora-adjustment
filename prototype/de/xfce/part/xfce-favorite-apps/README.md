@@ -8,12 +8,18 @@
 | [~/.config/xfce4/helpers.rc](./asset/overlay/etc/skel/.config/xfce4/helpers.rc) |
 
 
-## Debian Package
+## Fedora Package
 
-| Debian Package |
+| Fedora Package |
 | --- |
-| [build-essential](https://packages.debian.org/sid/build-essential) |
-| [bash-completion](https://packages.debian.org/sid/bash-completion) |
+| [bash-completion](https://packages.fedoraproject.org/pkgs/bash-completion/bash-completion/) |
+
+
+## Fedora Source Package
+
+| Fedora Source Package |
+| --- |
+| [bash-completion](hhttps://src.fedoraproject.org/rpms/bash-completion) |
 
 
 

@@ -9,16 +9,19 @@
 | [~/.config/autostart/plank-on-xfce.desktop](config/autostart/plank-on-xfce.desktop]) |
 
 
-## Debian Package
+## Fedora Package
 
-| Debian Package |
+| Fedora Package |
 | --- |
-| [plank](https://packages.debian.org/sid/plank) |
+| [plank](https://packages.fedoraproject.org/pkgs/plank/plank/) |
 
 
-## Debian Manpage
+## Fedora Source Package
 
-* man [plank](https://manpages.debian.org/unstable/plank/plank.1.en.html)
+| Fedora Source Package |
+| --- |
+| [plank](https://src.fedoraproject.org/rpms/plank) |
+
 
 
 ## Howto
