@@ -6,7 +6,7 @@
 
 
 ##
-## ## Debian Package
+## ## Package /  Dock / Plank
 ##
 
 plank
