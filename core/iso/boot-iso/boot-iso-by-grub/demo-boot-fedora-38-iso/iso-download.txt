@@ -2,13 +2,16 @@
 
 https://download.fedoraproject.org/pub/fedora/linux/releases/38/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-38-1.6.iso
 https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-38-1.6.iso
-https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-38-1.6.iso
-https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-i3-Live-x86_64-38-1.6.iso
-https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-38-1.6.iso
-https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-38-1.6.iso
-https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-38-1.6.iso
 https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-38-1.6.iso
 https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-i3-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-Sway-Live-x86_64-38-1.6.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-38-1.6.iso
+
 
 
 https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-Spins-38-1.6-x86_64-CHECKSUM
