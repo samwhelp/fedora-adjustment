@@ -10,3 +10,7 @@
 ##
 
 plank
+
+plank-docklets
+
+
