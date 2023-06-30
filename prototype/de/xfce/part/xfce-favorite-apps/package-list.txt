@@ -11,8 +11,14 @@
 ## ## Package / Tool / Develop
 ##
 
-build-essential
+##
+## ## build-essential
+##
+## https://www.pragmaticlinux.com/2022/05/how-to-install-build-essential-on-fedora/
+## sudo dnf group install "C Development Tools and Libraries" "Development Tools"
+
 python3-github
+php-cli
 
 
 
@@ -73,7 +79,7 @@ pcmanfm
 engrampa
 lxqt-archiver
 
-p7zip-full
+p7zip
 unrar-free
 
 
@@ -106,8 +112,8 @@ viewnior
 ##
 
 mpv
-smplayer
-vlc
+#smplayer
+#vlc
 
 
 
@@ -134,20 +140,10 @@ mate-media
 ## ## Package / Env / Qt
 ##
 
-qt5-style-plugins
-qt5-gtk2-platformtheme
-qt5-gtk-platformtheme
-qt6-gtk-platformtheme
+qt5-qtstyleplugins
 
-##
-## apt-cache search svg | grep qt
-##
-
-libqt5svg5
-libqt6svg6
-
-qt5-style-kvantum
 qt5ct
+kvantum
 
 
 
@@ -158,16 +154,18 @@ qt5ct
 
 fcitx5
 fcitx5-chewing
-fcitx5-config-qt
+fcitx5-configtool
 
-fcitx5-frontend-gtk2
-fcitx5-frontend-gtk3
-fcitx5-frontend-gtk4
-fcitx5-frontend-qt5
+fcitx5-gtk2
+fcitx5-gtk3
+fcitx5-gtk4
+fcitx5-qt
+fcitx5-qt6
 
 fcitx5-chinese-addons
-fcitx5-table
-fcitx5-m17n
+
+fcitx5-table-extra
+fcitx5-table-other
 
 
 
@@ -176,19 +174,19 @@ fcitx5-m17n
 ## ## Package / Theme
 ##
 
-gtk2-engines-murrine
-
-
 
 
 ##
 ## ## Package / Theme / breeze
 ##
 
-breeze-gtk-theme
+##
+## dnf search breeze
+##
+breeze-gtk
 breeze-icon-theme
 breeze-cursor-theme
-xfwm4-theme-breeze
+grub2-breeze-theme
 
 
 
@@ -197,9 +195,13 @@ xfwm4-theme-breeze
 ## ## Package / Theme / numix
 ##
 
+##
+## dnf search numix
+##
 numix-gtk-theme
 numix-icon-theme
 numix-icon-theme-circle
+numix-icon-theme-square
 
 
 
