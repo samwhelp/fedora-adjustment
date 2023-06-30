@@ -1,0 +1,1 @@
+https://download.fedoraproject.org/pub/fedora/linux/releases/38/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-38-1.6.iso
