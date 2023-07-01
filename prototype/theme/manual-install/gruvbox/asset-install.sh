@@ -112,9 +112,9 @@ theme_gtk_gruvbox_dark_asset_install () {
 
 	tar xf "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark/gruvbox-theme-collection-gtk-theme-gruvbox-dark.tar.gz" -C "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark"
 
-	mkdir -p "${HOME}/.themes/Gruvbox"
+	mkdir -p "${HOME}/.themes/Gruvbox-Dark"
 
-	cp -rf "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark/gruvbox-theme-collection-gtk-theme-gruvbox-dark/." "${HOME}/.themes/Gruvbox"
+	cp -rf "${HOME}/.cache/manual-install/gtk-theme-gruvbox-dark/gruvbox-theme-collection-gtk-theme-gruvbox-dark/." "${HOME}/.themes/Gruvbox-Dark"
 
 }
 
