@@ -73,7 +73,7 @@ main_package_install () {
 
 	# sudo dnf install $(cat package-list.txt)
 	# sudo dnf install $(main_package_find_list_raw)
-	sudo dnf install $(main_package_find_list)	
+	sudo dnf install $(main_package_find_list)
 
 }
 
