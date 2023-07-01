@@ -52,7 +52,7 @@ main_package_install () {
 
 	# sudo apt-get install $(cat package-list.txt)
 	# sudo apt-get install $(main_package_find_list_raw)
-	# sudo apt-get install $(main_package_find_list)
+	#sudo apt-get install $(main_package_find_list)
 
 
 	##
