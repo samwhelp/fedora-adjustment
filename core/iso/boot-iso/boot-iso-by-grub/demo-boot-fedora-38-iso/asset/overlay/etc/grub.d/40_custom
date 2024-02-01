@@ -8,7 +8,7 @@ exec tail -n +3 $0
 
 
 menuentry "Fedora 38 ISO / Gnome Shell (Workstation)" --class Fedora {
-	set iso_file="/opt/iso/fedora/38/Fedora-Workstation-Live-x86_64-38-1.6."
+	set iso_file="/opt/iso/fedora/38/Fedora-Workstation-Live-x86_64-38-1.6.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
