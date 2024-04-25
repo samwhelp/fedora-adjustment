@@ -1,0 +1,174 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+
+
+
+
+
+
+
+menuentry "Fedora 40 ISO / Gnome Shell (Workstation)" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-Workstation-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-WS-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Kde" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-KDE-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-KDE-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Lxqt" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-LXQt-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-LXQt-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Xfce" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-Xfce-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Xfce-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Budgie" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-Budgie-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Budgie-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Mate Compiz" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-MATE_Compiz-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-MATE-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Cinnamon" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-Cinnamon-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Cinn-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Lxde" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-LXDE-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-LXDE-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / I3" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-i3-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-i3-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / Sway" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-Sway-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Sway-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 40 ISO / SoaS" --class Fedora {
+	set iso_file="/opt/iso/fedora/40/Fedora-SoaS-Live-x86_64-40-1.14.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-SoaS-Live-40-1-14 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
