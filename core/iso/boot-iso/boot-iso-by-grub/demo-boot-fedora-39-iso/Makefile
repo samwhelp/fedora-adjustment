@@ -64,18 +64,18 @@ iso-download:
 
 
 update-grub:
-	sudo grub-mkconfig -o /boot/grub/grub.cfg
+	sudo grub-mkconfig -o /boot/grub2/grub.cfg
 .PHONY: update-grub
 
 
 config-40_custom:
 	sudo install -Dm755 $(THE_OVERLAY_DIR_PATH)/etc/grub.d/40_custom "/etc/grub.d/40_custom"
-	sudo grub-mkconfig -o /boot/grub/grub.cfg
+	sudo grub-mkconfig -o /boot/grub2/grub.cfg
 .PHONY: config-40_custom
 
 
 config-41_custom:
-	sudo install -Dm644 $(THE_OVERLAY_DIR_PATH)/boot/grub/custom.cfg "/boot/grub/custom.cfg"
+	sudo install -Dm644 $(THE_OVERLAY_DIR_PATH)/boot/grub2/custom.cfg "/boot/grub2/custom.cfg"
 .PHONY: config-41_custom
 
 
@@ -85,12 +85,12 @@ view-40_custom:
 
 
 view-41_custom:
-	less "/boot/grub/custom.cfg"
+	less "/boot/grub2/custom.cfg"
 .PHONY: view-41_custom
 
 
 view-grub.cfg:
-	sudo less "/boot/grub/grub.cfg"
+	sudo less "/boot/grub2/grub.cfg"
 .PHONY: view-grub.cfg
 
 
@@ -100,18 +100,18 @@ edit-40_custom:
 
 
 edit-41_custom:
-	sudo vi "/boot/grub/custom.cfg"
+	sudo vi "/boot/grub2/custom.cfg"
 .PHONY: edit-41_custom
 
 
 remove-40_custom:
 	sudo install -Dm755 $(THE_DEFAULT_DIR_PATH)/etc/grub.d/40_custom "/etc/grub.d/40_custom"
-	sudo grub-mkconfig -o /boot/grub/grub.cfg
+	sudo grub-mkconfig -o /boot/grub2/grub.cfg
 .PHONY: remove-40_custom
 
 
 remove-41_custom:
-	sudo rm -f "/boot/grub/custom.cfg"
+	sudo rm -f "/boot/grub2/custom.cfg"
 .PHONY: remove-41_custom
 
 
