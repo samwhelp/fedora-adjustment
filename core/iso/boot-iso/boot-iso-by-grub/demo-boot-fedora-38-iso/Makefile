@@ -64,13 +64,13 @@ iso-download:
 
 
 update-grub:
-	sudo grub-mkconfig -o /boot/grub2/grub.cfg
+	sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 .PHONY: update-grub
 
 
 config-40_custom:
 	sudo install -Dm755 $(THE_OVERLAY_DIR_PATH)/etc/grub.d/40_custom "/etc/grub.d/40_custom"
-	sudo grub-mkconfig -o /boot/grub2/grub.cfg
+	sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 .PHONY: config-40_custom
 
 
@@ -106,7 +106,7 @@ edit-41_custom:
 
 remove-40_custom:
 	sudo install -Dm755 $(THE_DEFAULT_DIR_PATH)/etc/grub.d/40_custom "/etc/grub.d/40_custom"
-	sudo grub-mkconfig -o /boot/grub2/grub.cfg
+	sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 .PHONY: remove-40_custom
 
 
