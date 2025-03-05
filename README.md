@@ -28,8 +28,8 @@
 | [Fedora Gnome Shell Adjustment](https://samwhelp.github.io/fedora-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-gnome-shell-adjustment) |
 
 
-| Fedora Adjustment | GitHub |
-| ----------------- | ------ |
+| Fedora Respin | GitHub |
+| ------------- | ------ |
 | [Fedora Wayfire Adjustment](https://samwhelp.github.io/fedora-wayfire-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-wayfire-adjustment) |
 | [Fedora Labwc Adjustment](https://samwhelp.github.io/fedora-labwc-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-labwc-adjustment) |
 | [Fedora Hyprland Adjustment](https://samwhelp.github.io/fedora-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-hyprland-adjustment) |
