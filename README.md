@@ -11,16 +11,16 @@
 
 ## Subject
 
-* [Fedora Adjustment](#fedora-adjustment)
+* [Fedora Respin](#fedora-respin)
 * [Link](#link)
 
 
 
 
-## Fedora Adjustment
+## Fedora Respin
 
-| Fedora Adjustment | GitHub |
-| ----------------- | ------ |
+| Fedora Respin | GitHub |
+| ------------- | ------ |
 | [Fedora Xfce Adjustment](https://samwhelp.github.io/fedora-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-xfce-adjustment) |
 | [Fedora Lxqt Adjustment](https://samwhelp.github.io/fedora-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-lxqt-adjustment) |
 | [Fedora Kde Plasma Adjustment](https://samwhelp.github.io/fedora-kde-plasma-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-kde-plasma-adjustment) |
