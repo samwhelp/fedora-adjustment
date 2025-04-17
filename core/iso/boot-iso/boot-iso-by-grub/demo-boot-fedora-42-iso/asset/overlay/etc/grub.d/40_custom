@@ -27,7 +27,7 @@ menuentry "Fedora 42 ISO / Gnome Shell (Workstation)" --class Fedora {
 
 
 menuentry "Fedora 42 ISO / Kde Plasma" --class Fedora {
-	set iso_file="/opt/iso/fedora/42/Fedora-KDE-Live-42-1.1.x86_64.iso"
+	set iso_file="/opt/iso/fedora/42/Fedora-KDE-Desktop-Live-42-1.1.x86_64.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -72,7 +72,7 @@ menuentry "Fedora 42 ISO / Lxqt" --class Fedora {
 
 
 menuentry "Fedora 42 ISO / Lxde" --class Fedora {
-	set iso_file="/opt/iso/fedora/42/Fedora-LXDE-Live-42-1.1.x86_64.iso"
+	set iso_file="/opt/iso/fedora/42/Fedora-LXDE-Live-x86_64-42-1.1.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -102,7 +102,7 @@ menuentry "Fedora 42 ISO / Budgie" --class Fedora {
 
 
 menuentry "Fedora 42 ISO / Mate Compiz" --class Fedora {
-	set iso_file="/opt/iso/fedora/42/Fedora-MATE_Compiz-Live-42-1.1.x86_64.iso"
+	set iso_file="/opt/iso/fedora/42/Fedora-MATE_Compiz-Live-x86_64-42-1.1.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -117,7 +117,7 @@ menuentry "Fedora 42 ISO / Mate Compiz" --class Fedora {
 
 
 menuentry "Fedora 42 ISO / Cinnamon" --class Fedora {
-	set iso_file="/opt/iso/fedora/42/Fedora-Cinnamon-Live-42-1.1.x86_64.iso"
+	set iso_file="/opt/iso/fedora/42/Fedora-Cinnamon-Live-x86_64-42-1.1.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -147,7 +147,7 @@ menuentry "Fedora 42 ISO / Cosmic" --class Fedora {
 
 
 menuentry "Fedora 42 ISO / I3" --class Fedora {
-	set iso_file="/opt/iso/fedora/42/Fedora-i3-Live-42-1.1.x86_64.iso"
+	set iso_file="/opt/iso/fedora/42/Fedora-i3-Live-x86_64-42-1.1.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -162,7 +162,7 @@ menuentry "Fedora 42 ISO / I3" --class Fedora {
 
 
 menuentry "Fedora 42 ISO / Sway" --class Fedora {
-	set iso_file="/opt/iso/fedora/42/Fedora-Sway-Live-42-1.1.x86_64.iso"
+	set iso_file="/opt/iso/fedora/42/Fedora-Sway-Live-x86_64-42-1.1.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
