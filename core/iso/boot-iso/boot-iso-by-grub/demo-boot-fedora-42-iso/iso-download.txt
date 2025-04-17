@@ -11,6 +11,7 @@ https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso
 https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-Sway-Live-42-1.1.x86_64.iso
 https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-MiracleWM-Live-42-1.1.x86_64.iso
 https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-SoaS-Live-42-1.1.x86_64.iso
+https://download.fedoraproject.org/pub/fedora/linux/releases/42/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-42-1.1.x86_64.iso
 
 
 
