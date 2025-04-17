@@ -146,7 +146,6 @@ menuentry "Fedora 42 ISO / Cosmic" --class Fedora {
 
 
 
-
 menuentry "Fedora 42 ISO / I3" --class Fedora {
 	set iso_file="/opt/iso/fedora/42/Fedora-i3-Live-42-1.1.x86_64.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
@@ -201,5 +200,20 @@ menuentry "Fedora 42 ISO / SoaS" --class Fedora {
 	set boot_option=""
 	#set boot_option="quiet splash"
 	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-SoaS-Live-42-1-1 rd.live.image rhgb $boot_option
+	initrd (loop)/images/pxeboot/initrd.img
+}
+
+
+
+
+menuentry "Fedora 42 ISO / Kde Mobile" --class Fedora {
+	set iso_file="/opt/iso/fedora/42/Fedora-KDE-Mobile-Live-42-1.1.x86_64.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="quiet splash"
+	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-KDE-Mobile-Live-42-1-1 rd.live.image rhgb $boot_option
 	initrd (loop)/images/pxeboot/initrd.img
 }
