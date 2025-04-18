@@ -15,8 +15,8 @@ menuentry "Fedora 42 ISO / Gnome Shell (Workstation)" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-WS-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-WS-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -30,8 +30,8 @@ menuentry "Fedora 42 ISO / Kde Plasma" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-KDE-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-KDE-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -45,8 +45,8 @@ menuentry "Fedora 42 ISO / Xfce" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Xfce-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Xfce-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -60,8 +60,8 @@ menuentry "Fedora 42 ISO / Lxqt" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-LXQt-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-LXQt-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -75,8 +75,8 @@ menuentry "Fedora 42 ISO / Lxde" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-LXDE-Live-42-1-1 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-LXDE-Live-42-1-1 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -90,8 +90,8 @@ menuentry "Fedora 42 ISO / Budgie" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Budgie-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Budgie-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -105,8 +105,8 @@ menuentry "Fedora 42 ISO / Mate Compiz" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-MATE-Live-42-1-1 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-MATE-Live-42-1-1 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -120,8 +120,8 @@ menuentry "Fedora 42 ISO / Cinnamon" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Cinn-Live-42-1-1 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Cinn-Live-42-1-1 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -135,8 +135,8 @@ menuentry "Fedora 42 ISO / Cosmic" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-CSMC-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-CSMC-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -150,8 +150,8 @@ menuentry "Fedora 42 ISO / I3" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-i3-Live-42-1-1 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-i3-Live-42-1-1 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -165,8 +165,8 @@ menuentry "Fedora 42 ISO / Sway" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Sway-Live-42-1-1 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-Sway-Live-42-1-1 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -180,8 +180,8 @@ menuentry "Fedora 42 ISO / MiracleWM" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-MirWM-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-MirWM-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -195,8 +195,8 @@ menuentry "Fedora 42 ISO / SoaS" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-SoaS-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-SoaS-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
 
 
@@ -210,6 +210,6 @@ menuentry "Fedora 42 ISO / Kde Mobile" --class Fedora {
 	loopback loop ($iso_partition)$iso_file
 	set boot_option=""
 	#set boot_option="quiet splash"
-	linux (loop)/images/pxeboot/vmlinuz iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-KDEM-Live-42 rd.live.image rhgb $boot_option
-	initrd (loop)/images/pxeboot/initrd.img
+	linux (loop)/boot/x86_64/loader/linux iso-scan/filename=$iso_file root=live:CDLABEL=Fedora-KDEM-Live-42 rd.live.image rhgb $boot_option
+	initrd (loop)/boot/x86_64/loader/initrd
 }
