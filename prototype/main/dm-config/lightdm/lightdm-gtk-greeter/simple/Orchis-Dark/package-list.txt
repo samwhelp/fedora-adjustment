@@ -12,5 +12,6 @@
 ##
 
 lightdm
-lightdm-gtk-greeter
+lightdm-gtk
+lightdm-settings
 lightdm-gtk-greeter-settings

@@ -3,7 +3,7 @@
 # Lightdm
 
 * [Config File Path](#config-file-path)
-* [Arch Package](#arch-package)
+* [Fedora Package](#fedora-package)
 * [Usage](#usage)
 
 
@@ -18,15 +18,16 @@
 
 
 
-## Arch Package
+## Fedora Package
 
-Search: [lightdm](https://archlinux.org/packages/?sort=&q=lightdm&maintainer=&flagged=)
+Search: [lightdm](https://packages.fedoraproject.org/search?query=lightdm)
 
-| Arch Package |
-| ------------ |
-| [lightdm](https://archlinux.org/packages/extra/x86_64/lightdm/) |
-| [lightdm-gtk-greeter](https://archlinux.org/packages/extra/x86_64/lightdm-gtk-greeter/) |
-| [lightdm-gtk-greeter-settings](https://archlinux.org/packages/extra/any/lightdm-gtk-greeter-settings/) |
+| Fedora Package |
+| -------------- |
+| [lightdm](https://packages.fedoraproject.org/pkgs/lightdm/lightdm/) |
+| [lightdm-gtk](https://packages.fedoraproject.org/pkgs/lightdm-gtk/lightdm-gtk/) |
+| [lightdm-settings](https://packages.fedoraproject.org/pkgs/lightdm-settings/lightdm-settings/) |
+| [lightdm-gtk-greeter-settings](https://packages.fedoraproject.org/pkgs/lightdm-gtk-greeter-settings/lightdm-gtk-greeter-settings/) |
 
 
 
